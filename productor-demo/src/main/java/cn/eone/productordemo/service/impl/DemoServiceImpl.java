@@ -2,6 +2,7 @@ package cn.eone.productordemo.service.impl;
 
 import cn.eone.service.DemoService;
 import com.alibaba.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Component;
 
 /**
  * @ Author     ：pengzhaofeng
@@ -11,6 +12,7 @@ import com.alibaba.dubbo.config.annotation.Service;
  * @Version: 1.0
  **/
 @Service
+@Component
 public class DemoServiceImpl implements DemoService {
     @Override
     public String getInfo() {
