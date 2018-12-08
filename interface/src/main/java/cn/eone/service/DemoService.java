@@ -8,5 +8,5 @@ package cn.eone.service;
  * @Version: 1.0
  **/
 public interface DemoService {
-    public String getInfo();
+    String getInfo();
 }

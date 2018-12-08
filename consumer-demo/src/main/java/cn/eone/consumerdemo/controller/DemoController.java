@@ -19,7 +19,7 @@ public class DemoController {
     private DemoService demoService;
 
     @RequestMapping("/getInfo")
-    public Object getInfo() {
+    public String getInfo() {
         return demoService.getInfo();
     }
 }
