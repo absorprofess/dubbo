@@ -6,9 +6,9 @@ import com.alibaba.dubbo.config.annotation.Service;
 /**
  * @ Author     ：pengzhaofeng
  * @ Date       ：Created in 9:55 2018/12/8 0008
- * @ Description：
+ * @ Description：demo
  * @ Modified By：
- * @Version:
+ * @Version: 1.0
  **/
 @Service
 public class DemoServiceImpl implements DemoService {
