@@ -14,6 +14,6 @@ import com.alibaba.dubbo.config.annotation.Service;
 public class DemoServiceImpl implements DemoService {
     @Override
     public String getInfo() {
-        return "test";
+        return "RPC远程调用成功!";
     }
 }
